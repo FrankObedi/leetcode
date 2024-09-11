@@ -1,6 +1,6 @@
 class Solution:
     def reomanToInt(self, s):
-        # hastable of roman symbols and correspoding values
+        # hashtable of roman symbols and correspoding values
         symbols = {
             "I":1,
             "V":5,

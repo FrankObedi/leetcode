@@ -9,8 +9,10 @@ class Solution:
                 t_iter += 1
             else:
                 t_iter += 1
-        return s_iter == len(s)
+        return s_iter == len(s) # captures case where s == ''
     
 s = Solution()
 print(s.isSubsequence("axc","ahbgdc"))
 print(s.isSubsequence("fan","frank"))
+print(s.isSubsequence("acf","abcdef"))
+print(s.isSubsequence("abcdef","abc"))
